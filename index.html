@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="utf-8"><title>mamyuda.github.io</title></head>
+<body>
+<h1>mamyuda.github.io</h1>
+<p>Tesla Fleet API domain for personal use.</p>
+<div id="code" style="font-size:2em;word-break:break-all"></div>
+<script>
+const c = new URLSearchParams(location.search).get('code');
+if (c) { document.getElementById('code').textContent = 'code: ' + c; }
+</script>
+</body>
+</html>
